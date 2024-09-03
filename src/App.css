@@ -1,0 +1,13 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .grid_ {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+    }
+
+    .box{
+        @apply w-48 h-48 text-white font-bold text-2xl p-6
+    }
+} */
